@@ -229,7 +229,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap (>= 1.1.0)
   byebug
-  capistrano (~> 3.11)
+  capistrano (~> 3.17)
   capistrano-rails (~> 1.4)
   capistrano-rvm
   capistrano-sidekiq
