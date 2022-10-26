@@ -1,6 +1,7 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.17"
 
+set :ssh_options, { forward_agent: true, user: "manager", auth_methods: ['publickey'], keys: %w(~/.ssh/promdev) }
 set :application, "capistrano-demo"
 set :repo_url, "git@github.com:miao-bpl/capistrano-demo.git"
 
