@@ -10,6 +10,7 @@
 # server "127.0.0.1", user: "manager", roles: %w{app db web}
 server "172.29.101.160", user: "manager", password: "Password95", roles: %w{app db web}
 
+set :branch, 'main'
 
 # set :default_env, {
 #   path: "/home/deploy/.nvm/versions/node/v12.11.0/bin:$PATH"
