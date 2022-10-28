@@ -31,7 +31,7 @@ require "capistrano/rvm"
 # require "capistrano/chruby"
 require "capistrano/bundler"
 require "capistrano/rails/assets"
-#m# require "capistrano/rails/migrations"
+require "capistrano/rails/migrations"
 require 'capistrano/puma'
 install_plugin Capistrano::Puma
 #m# require 'capistrano/sidekiq'
