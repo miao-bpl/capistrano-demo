@@ -83,6 +83,7 @@ test:
 #
 production:
   <<: *default
+  host: 172.29.101.160
   database: capistrano_demo_production
   username: capistrano_demo
   password: Password95
